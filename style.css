@@ -13,7 +13,13 @@ body {
   overflow-x: hidden;
 }
 
-.row {
+{
+  img {
+  width: 100%;
+  }
+}
+
+.row { 
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -64,36 +70,52 @@ nav {
   padding-bottom: 4px;
 }
 
+.nav__logo--img {
+  height: 40px;
+  width: 40px;
+}
+
 .nav__logo--title {
   font-weight: 900;
   font-size: 24px;
   margin-left: 12px;
   padding-bottom: 2px;
   letter-spacing: 0.6px;
-}
-
-.nav__logo--img {
-  height: 40px;
-  width: 40px;
-}
-
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+} 
 
 .nav__links {
   display: flex;
-  justify-content: sbetween;
   align-items: center;
   padding-bottom: 2px;
 }
 
 .nav__link {
-  margin: 0 24px;
   font-size: 14px;
   font-weight: 600;
+  padding-top: 4px;
+  letter-spacing: 0.35px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  transition: all 300ms;
+  margin: 0 24px;
+}
+
+.login {
+  margin-left: 48 px
+}
+
+.nav__link--primary {
+  margin: 0;
+  color: #fff;
+  padding: 10px 32px; 
+  margin-top: 2px;
+  border-radius: 9999px;
+  color: #fff;
+  background-color: #6415ff;
+  line-height: 1.5;
+  border: none;
+  width: auto;
+  transition: all 300ms ease;
 }
 
 .btn__menu {
@@ -172,8 +194,23 @@ HEADER / ABOUT US ↓
 
 header .row {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.row {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
 }
 
 /* 
