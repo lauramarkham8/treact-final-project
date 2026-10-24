@@ -236,6 +236,11 @@ h1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
 }
 
 .header__email--input {
@@ -272,7 +277,127 @@ h1 {
 
 button {
   cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
   appearance: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  padding-block: 1px;
+  padding-inline: 6px;
+}
+
+div {
+  unicode-bidi: isolate;
+}
+
+.header__customers--title {
+  margin-top: 48px;
+  color: #a0aec0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  unicode-bidi: isolate;
+}
+
+.header__customers {
+padding-right: 0px;
+margin-top: 16px;
+opacity: 0.5;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.header__description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__img--wrapper {
+  width: 100%;
+  max-width: 512px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+.header__img {
+  max-width: 512px;
+  width: 100%;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  unicode-bidi: isolate;
+}
+
+div {
+  unicode-bidi: isolate;
+}
+
+header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+section {
+  padding: 0 32px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  display: block;
+  unicode-bidi: isolate;
 }
 
 /* 
