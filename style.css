@@ -13,13 +13,11 @@ body {
   overflow-x: hidden;
 }
 
-{
-  img {
+img {
   width: 100%;
-  }
 }
 
-.row { 
+.row {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
@@ -81,7 +79,7 @@ nav {
   margin-left: 12px;
   padding-bottom: 2px;
   letter-spacing: 0.6px;
-} 
+}
 
 .nav__links {
   display: flex;
@@ -101,12 +99,12 @@ nav {
 }
 
 .login {
-  margin-left: 48 px
+  margin-left: 48 px;
 }
 
 .nav__link--primary {
   margin: 0;
-  padding: 10px 32px; 
+  padding: 10px 32px;
   margin-top: 2px;
   border-radius: 9999px;
   color: #fff;
@@ -191,29 +189,65 @@ HEADER / ABOUT US ↓
 
 */
 
+header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.container {
+  padding: 96px 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
 header .row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .row {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
 }
 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
+div {
+  unicode-bidi: isolate;
+}
+.header__description {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 36px;
   color: #1a202c;
   line-height: 1.25;
 }
@@ -230,7 +264,7 @@ h1 {
 
 .header__email {
   width: 100%;
-  max-width: 448px;   
+  max-width: 448px;
   height: 68px;
   position: relative;
   display: flex;
@@ -244,14 +278,14 @@ h1 {
 }
 
 .header__email--input {
-  position: static;
+  position: absolute;
   padding: 16px 0;
   padding-left: 32px;
   line-height: 1.5;
   width: 100%;
   border-radius: 500px;
   border: 2px solid rgb(229, 231, 235);
-  color: #rgb(36, 62, 99);
+  color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
   z-index: 1;
@@ -259,9 +293,8 @@ h1 {
 }
 
 .header__email--btn {
-  width: 100%;
-  padding: 16px 0;
-  margin: 16px 0;
+  padding: 16px 20px;
+  margin-right: 8pxx;
   margin-bottom: 0px;
   line-height: 1.5;
   z-index: 2;
@@ -317,9 +350,9 @@ p {
 }
 
 .header__customers {
-padding-right: 0px;
-margin-top: 16px;
-opacity: 0.5;
+  padding-right: 0px;
+  margin-top: 16px;
+  opacity: 0.5;
 }
 
 img {
