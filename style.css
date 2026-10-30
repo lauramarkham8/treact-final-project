@@ -439,8 +439,16 @@ FEATURES ↓
 
 */
 
+main {
+    margin-bottom: 96px;
+}
+
 #features {
   position: relative;
+}
+
+section {
+    padding: 0 32px;
 }
 
 .container {
