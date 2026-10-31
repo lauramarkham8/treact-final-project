@@ -305,7 +305,7 @@ h1 {
 
 button {
   cursor: pointer;
-  padding: 0;
+  padding: 20;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   appearance: auto;
@@ -317,7 +317,7 @@ button {
   text-shadow: none;
   display: inline-block;
   text-align: center;
-  padding-block: 1px;
+  padding-block: 20px;
   padding-inline: 6px;
 }
 
