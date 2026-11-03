@@ -1351,17 +1351,6 @@ QUALITY WORK ↓
   align-items: center;
 }
 
-/* 
-
-STEPS ↓
-
-*/
-
-#steps .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* 
 
