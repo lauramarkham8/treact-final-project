@@ -859,6 +859,12 @@ img {
   line-height: 1;
 }
 
+@media (max-width: 640px) {}
+    .steps__list {
+        margin-top: 48px;
+    }
+      
+
 .step__para {
   font-size: 14px;
   color: #718096;
@@ -875,7 +881,7 @@ img {
 #steps .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .container {
