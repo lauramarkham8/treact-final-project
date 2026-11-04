@@ -748,11 +748,6 @@ section {
   unicode-bidi: isolate;
 }
 
-@media (max-width: 768px) {
-    #steps .row, #testimonials .row 
-        flex-direction: column;
-    }
-
 #steps .row {
   display: flex;
   justify-content: space-between;
@@ -769,12 +764,6 @@ section {
 .steps__img--wrapper {
   width: 50%;
 }
-
-@media (max-width: 768px) {
-    .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img 
-        width: 100%;
-        max-width: 448px;
-    }
 
 .steps__img--wrapper {
   display: flex;
@@ -1119,18 +1108,6 @@ figure {
 
 .values__description {
   padding: 32px 64px 32px 0;
-}
-
-.quality__description,
-.quality__img--wrapper,
-.steps__description,
-.steps__img--wrapper,
-.values__description,
-.values__img,
-.testimonials__description,
-.testimonials__img {
-  width: 100%;
-  max-width: 448px;
 }
 
 #values .row {
