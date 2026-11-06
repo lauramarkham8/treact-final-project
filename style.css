@@ -956,20 +956,22 @@ section {
 
 .values__list {
   max-width: 20rem;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 0px;
   margin-right: 0px;
   display: flex;
 }
 
-@media (max-width: 1024px) {}
-    .values__list {
-        max-width: 20rem;
-        flex-direction: column;
-    }
+@media (max-width: 1024px) { 
+ .values_list { 
+   flex-direction: column; 
+   max-width: 20rem; 
+ } 
+}
 
 .value:nth-of-type(1) {
   margin-top: 32px;
+  margin-right: 32px;
 }
 
 .value {
@@ -980,7 +982,14 @@ section {
 
 .value__title {
   display: flex;
-  align-items: center;
+  align-items: left;
+  justify-content: center;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
 }
 
 .value:nth-child(1) .value__img--wrapper {
