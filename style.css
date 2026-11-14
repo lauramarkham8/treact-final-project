@@ -304,6 +304,10 @@ button {
   cursor: pointer;
 }
 
+.header__email--btn:hover {
+  background-color: rgba(60, 13, 153);
+}
+
 div {
   unicode-bidi: isolate;
 }
@@ -2512,6 +2516,10 @@ div {
   justify-content: flex-end;
 }
 
+.start__button:hover:nth-child(1) {
+  background-color: rgba(229, 62, 62);
+}
+
 .start__button:nth-child(1) {
   background: #f56565;
   box-shadow:
@@ -2533,6 +2541,11 @@ div {
   letter-spacing: 0.025;
   margin: 1px;
   z-index: 2;
+}
+
+.start__button:hover:nth-child(2) {
+  background-color: rgb(247, 250, 252);
+  color: rgb(100, 21, 255);
 }
 
 .start__button:nth-child(2) {
@@ -3326,6 +3339,32 @@ body {
 MOBILE RESPONSIVENESS ↓
 
 */
+
+@media (max-width: 640px) {
+  .header__email {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__email--input {
+    position: static;
+    padding: 16px 0;
+    padding-left: 32px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__email--btn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    margin-bottom: 0px;
+    line-height: 1.5;
+  }
+}
 
 @media (max-width: 1280px) {
   header .row {
