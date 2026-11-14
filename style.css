@@ -3342,6 +3342,7 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 640px) {
   .header__email {
+    display: flex;
     flex-direction: column;
     height: auto;
   }
@@ -3349,7 +3350,7 @@ MOBILE RESPONSIVENESS ↓
 
 @media (max-width: 640px) {
   .header__email--input {
-    position: static;
+    position: relative;
     padding: 16px 0;
     padding-left: 32px;
     line-height: 1.5;
